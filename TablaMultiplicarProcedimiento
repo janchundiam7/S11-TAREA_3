@@ -1,0 +1,11 @@
+SubProceso MostrarLinea(num, i)
+    Escribir num, " x ", i, " = ", num * i
+FinSubProceso
+Algoritmo TablaMultiplicarProcedimiento
+    Definir n, i Como Entero
+    Escribir "Ingrese un número:"
+    Leer n
+    Para i <- 1 Hasta 10 Con Paso 1 Hacer
+        MostrarLinea(n, i)
+    FinPara
+FinAlgoritmo
