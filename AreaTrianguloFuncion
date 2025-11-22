@@ -1,0 +1,12 @@
+Algoritmo AreaTrianguloFuncion
+Definir ba, al, ar Como Real
+    Escribir "Ingrese la base del triángulo:"
+    Leer ba
+    Escribir "Ingrese la altura del triángulo:"
+    Leer al
+    ar <- CalcularArea(ba, al)
+    Escribir "El área del triángulo es: ", ar
+FinAlgoritmo
+Funcion r <- CalcularArea(b, h)
+    r <- (b * h) / 2
+FinFuncion
